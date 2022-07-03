@@ -20,24 +20,35 @@
         <form action="">
             <h2 id="payment">Pagamento</h2>
 
-            <div class="payment-methods">
-                <h5>PayPal</h5>
-                <h5>Cartão</h5>
-            </div>
-
             <!-- Cartão -->
             <div class="card-payment">
                 <div class="inputbox"> <input type="text" name="name" class="form-control" required>
                     <span>Nome</span>
                 </div>
-                <div class="inputbox"> <input type="text" name="name" class="form-control" required>
+
+                <div class="inputbox num"> <input type="text" name="name" class="form-control" required>
                     <span>Número do cartão</span>
                 </div>
+
+                <div class="card-info">
+                    <div class="inputbox data"> <input type="text" name="name" class="form-control" required>
+                        <span>Data de expiração</span>
+                    </div>
+                    <div class="inputbox cvv"> <input type="text" name="name" class="form-control" required>
+                        <span>CVV</span>
+                    </div>
+                </div>
+
+                <div class="checkbutton">
+                    <input type="checkbox" name="salvar" id="salvar">
+                    <label for="salvar">Salve meu cartão para compras futuras</label>
+                </div>
+
 
                 <div class="button-container">
                     <button type="submit" id="payment-button">Comprar</button>
                 </div>
-                
+
             </div>
 
 
