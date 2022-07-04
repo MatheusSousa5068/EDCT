@@ -115,6 +115,7 @@ main {
   padding: 1rem;
   border: 1px solid #fff;
   border-radius: 10px;
+  height: 47rem;
 }
 
 main h1#cursos-titulo {
@@ -221,6 +222,16 @@ footer .social_icons{
   body {
     font-size: 20px;
   }
+
+  .grid-item-curso {
+    height: fit-content;
+  }
+
+  a.button {
+    position: relative !important;
+    bottom: auto !important;
+    width: auto !important;
+}
 
   header #navbar ul li {
     padding: 1rem;
@@ -339,4 +350,10 @@ footer .social_icons{
   .footer-container fa {
     font-size: 28px;
   }
+}
+
+a.button {
+  width: 13vw;
+  position: absolute;
+  bottom: -22rem;
 }
