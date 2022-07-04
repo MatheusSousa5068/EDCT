@@ -31,6 +31,24 @@ header {
     align-items: center;
 }
 
+header #login {
+    position: absolute;
+    top: 2vh;
+    right: 2vw;
+    text-decoration: none;
+
+    background: none;
+    border-color: #fff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+.fa {
+    color: #fff !important;
+}
+
 header #navbar {
     margin-top: -3vh;
     background-color: #ed3d38;
